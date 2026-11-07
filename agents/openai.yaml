@@ -1,0 +1,6 @@
+interface:
+  display_name: "Photo to Isometric Diorama Poster v1.3"
+  short_description: "Photo posters with faithful dioramas and English editorial copy"
+  default_prompt: "Use $photo-to-isometric-diorama-poster to turn my photograph into a 3:4 split poster with English editorial copy on the left and a material-faithful miniature diorama on the right of the lower panel."
+policy:
+  allow_implicit_invocation: true
