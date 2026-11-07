@@ -4,6 +4,14 @@
 
 当前版本：**v1.3**。
 
+## 效果示例
+
+以下三张展示同一套版式在不同场景中的表现：上半部摄影画面，下半部英文文案与微缩模型。点击图片可查看原图。
+
+| 海崖 · Coastal Stillness | 灯塔 · Riverside Study | 湖畔 · Lakeside Stillness |
+| --- | --- | --- |
+| [![白色海崖与海岸微缩海报](assets/examples/coastal-stillness.png)](assets/examples/coastal-stillness.png) | [![红白灯塔与河岸微缩海报](assets/examples/riverside-study.png)](assets/examples/riverside-study.png) | [![黑天鹅与湖畔微缩海报](assets/examples/lakeside-stillness.png)](assets/examples/lakeside-stillness.png) |
+
 ## 视觉规则
 
 - 竖版 3:4，上下各占 50%。
