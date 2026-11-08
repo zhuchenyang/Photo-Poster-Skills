@@ -25,6 +25,8 @@
 
 本效果是 [海报技能集合](../../README.md) 中的一个独立技能。
 
+[下载 v1.4 独立安装包](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/download/isometric-diorama-v1.4/photo-to-isometric-diorama-poster-v1.4.zip)。
+
 优先下载对应 Release 附带的 `photo-to-isometric-diorama-poster-v<版本>.zip`，解压后将 `photo-to-isometric-diorama-poster` 文件夹放入 Codex 用户技能目录（通常为 `~/.codex/skills/`；设置 `CODEX_HOME` 时使用其 `skills` 子目录）。
 
 也可下载集合仓库源码，只复制 `posters/photo-to-isometric-diorama-poster/`。不要把整个仓库克隆到单个技能目录。已有同名技能时先备份再更新。
@@ -64,4 +66,4 @@ CLI/API 备用方式仅在用户明确选择时使用，可能需要本地配置
 
 水面下方的模型体积与外露侧面默认表现为水体，不再默认展示河床、湖床或海床土石剖面。保持原照水色、透明度与浑浊程度，不添加土石托底或围边。混合场景按区域区分：陆地展示土石或结构剖面，水域展示水体截面，并在岸线自然衔接。原照清楚可见水底或用户明确要求时，可展示相应水底细节。
 
-上方三张示例制作于 v1.3，用于展示整体版式；其中水体基座尚未按 v1.4 新规则重新生成。
+湖畔示例已更新为 v1.4 最终成品，展示水体截面与岸边土壤剖面的分区处理。海崖和灯塔示例保留 v1.3 成品，用于展示整体版式。
