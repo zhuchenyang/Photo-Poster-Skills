@@ -1,86 +1,119 @@
 # Photo to Isometric Diorama Poster
 
-将照片转化为上方摄影画面、下方等距微缩场景的精致海报，默认配有英文编辑式文案。
+将照片制作成 **3:4 上下分栏海报**：上方呈现摄影画面，下方以等距微缩形式重建同一主体，默认配有左侧英文编辑文案。
 
-当前版本：**v1.8**。
+当前技能版本：**v1.8** · [Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/isometric-diorama-v1.8) · [下载独立安装包](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/download/isometric-diorama-v1.8/photo-to-isometric-diorama-poster-v1.8.zip) · [技能正文](SKILL.md)
 
-## 效果示例
+## 最新效果示例
 
-### 最新示例 · Swan Family（v1.8）
+[![Swan Family：黑天鹅家庭、自然岸线与可读的湖水深度](assets/examples/swan-family.png)](assets/examples/swan-family.png)
 
-[![黑天鹅家庭：前景湖水在基座侧面呈现可读深度，保持自然水色与岸边结构连续](assets/examples/swan-family.png)](assets/examples/swan-family.png)
+**Swan Family · v1.8**。前景湖水在模型外露侧面呈现水面以下的体积，并与岸边地层连续衔接；完整模型与阴影保持宽松留白。上方摄影画面经生成式重构，模型水深属于艺术推断。
 
-采用用户选定的最新海报，展示前景水体的水下体积、自然接触阴影，以及左文右景的宽松留白。上方摄影画面经生成式重构；模型水深为艺术推断，不代表实测。
+## 根据照片重建，使用统一原则
 
-### 更多场景参考
+技能先观察实际照片，再识别主体特征、比例、姿态或配置、空间关系、材质及连接方式，据此确定微缩重建方式。构图与材质规则不预设照片必须包含建筑、地形、植被或水域，也不要求为每类场景另写处理流程。
 
-以下三张展示同一套版式在不同场景中的表现：上半部摄影画面，下半部英文文案与微缩模型。点击图片可查看原图。
+主体应保持可辨识，模型应有真实的三维体积。承载面、侧面、厚度或剖切方式由照片中的结构决定；仅补全俯视重建所必需的不可见部分。具体效果仍受照片信息和生成工具能力影响。
 
-| 港湾 · Harbor Stillness | 双湖 · Alpine Stillness | 河谷 · Alpine Waters |
-| --- | --- | --- |
-| [![港湾木船与水体厚基座海报](assets/examples/harbor-stillness.png)](assets/examples/harbor-stillness.png) | [![雪山双湖与局部水体剖切海报](assets/examples/alpine-stillness.png)](assets/examples/alpine-stillness.png) | [![雪峰河谷与水体截面海报](assets/examples/alpine-waters.jpg)](assets/examples/alpine-waters.jpg) |
+### 材质与结构
 
-## 视觉规则
+- 优先级：**真实材质身份 > 空间结构准确性 > 雕塑表现 > 风格统一**。
+- 保留实际材质的颜色、纹理、透明度、反射特征和边界；缩小细节时保持材质类别。
+- 保持物体之间的连接、承托和连续结构，不为展示剖面而拆开本应连贯的部分。
+- 原图本就是单材质或单色时，保留这种外观，包括真实存在的石膏、树脂等材质。
+- 保留照片中已有的围边、框架和支撑，不凭空增加装饰性边框、托盘或底座。
+- 不强制所有主体使用厚地形切片；以适当的体积、侧面、厚度、遮挡和光影体现立体感。
 
-- 竖版 3:4，上下各占 50%。
-- 下半部默认采用暖中性背景，左侧英文文案、右侧完整微缩模型。
-- 文案包括眉题、主标题与两行辅助文字，随照片内容变化，保持简洁、克制的编辑风格，情绪与画面内容相符。
-- 先预留文字空间，再确定模型位置，必要时整体等比缩小；完整轮廓和阴影均需保留宽松留白。
-- 保留主体身份、比例、空间关系、实际材质及其边界；体积和支撑结构从原图推导，不强制所有主体使用地形底座。
-- 前景水体应在基座或外露侧面呈现水面以下的可读深度，保持原图水色、清澈度、浑浊感和水陆连续关系。
-- 保留原图已有的围边、框架和支撑；禁止凭空增加装饰性结构。
-- 用户可要求无字版本、其他语言或指定文案。
+### 前景水体的深度
 
-## 安装到 Codex
+**当前景出现水体时，基座或外露侧面必须体现水面以下可感知的水柱深度。**
 
-本效果是 [海报技能集合](../../README.md) 中的一个独立技能。
+保持照片中的水色、清澈度和浑浊感，通过侧面体积、自然色调衰减等表现深度；浑浊的水也应有可读深度，无需强制透明。水体与岸坡、合理水下基底保持连续，避免仅把水面绘在不透明土石板上。
 
-[下载 v1.8 独立安装包](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/download/isometric-diorama-v1.8/photo-to-isometric-diorama-poster-v1.8.zip)。
+不默认替换为透明蓝色树脂，不强制孤立的纯水块，也不新增围边。模型水深及不可见结构属于合理艺术重建，不代表实测。
 
-优先下载对应 Release 附带的 `photo-to-isometric-diorama-poster-v<版本>.zip`，解压后将 `photo-to-isometric-diorama-poster` 文件夹放入 Codex 用户技能目录（通常为 `~/.codex/skills/`；设置 `CODEX_HOME` 时使用其 `skills` 子目录）。
+## 海报构图
 
-也可下载集合仓库源码，只复制 `posters/photo-to-isometric-diorama-poster/`。不要把整个仓库克隆到单个技能目录。已有同名技能时先备份再更新。
+| 项目 | 默认要求 |
+| --- | --- |
+| 画幅 | 竖版，宽高比严格为 3:4 |
+| 上下分区 | 摄影与微缩场景各占画布高度的 50% |
+| 上半部 | 保持摄影外观，保留主体及已确定裁切中的内容，不拉伸或挤压 |
+| 下半部 | 左侧文案、右侧完整模型，暖中性背景与柔和棚拍光 |
+| 视角 | 30°–45°俯视的等距风格 |
+| 留白 | 完整轮廓及可见阴影均与文字、分割线、四周边缘保持距离 |
+| 阴影 | 根据实际接触和几何关系形成自然接触阴影，近处较深、远处渐软 |
 
-当前 [历史 v1.3 Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/v1.3) 保留原有布局，可使用其 Source code (zip)，将解压根目录命名为技能名后安装；后续发布优先使用单效果安装 ZIP。
+首轮生成前先预留文字列，再确定完整模型及阴影的占位。有字版本的起始上限约为下半区宽度的 **48%–52%**、高度的 **58%–64%**；按更严格的方向等比缩小，可以更小，不要求填满。
+
+无字版本以整体视觉重心居中，起始上限约为下半区宽度的 **65%–70%**、高度的 **70%–75%**。这些数值是构图指导，最终还需检查完整轮廓和实际四边留白。
+
+若上半区的已选裁切无法填满分区，仅沿缺失边界扩展与原画面一致的内容，保持透视、尺度、光线和纹理，不以重复纹理或新增焦点填充。
+
+## 默认英文文案
+
+- 眉题：2–3 个英文单词，全大写、小号无衬线字体。
+- 主标题：3–6 个英文单词，分成 2–3 行，常规字重衬线字体。
+- 辅助文字：两短行，合计约 8–14 个英文单词。
+
+文案围绕照片中可见的主体或场景特征，保持简洁、克制的编辑风格；具体情绪和力度随画面变化。避免套用固定场景与情绪配对、泛用口号，以及虚构地名、历史、季节或个人故事。最终文字和预期换行会明确写入生成请求，并检查拼写与可读性。
+
+## 安装
+
+本效果是 [Photo Poster Skills 集合](../../README.md) 中的独立技能。
+
+1. 下载 [v1.8 独立安装 ZIP](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/download/isometric-diorama-v1.8/photo-to-isometric-diorama-poster-v1.8.zip)。
+2. 解压，将其中的 `photo-to-isometric-diorama-poster` 文件夹放入 Codex 用户技能目录，通常为 `~/.codex/skills/`；设置了 `CODEX_HOME` 时使用其 `skills` 子目录。
+3. 更新已有同名技能前先备份旧版本。
+
+也可从仓库源码中复制 `posters/photo-to-isometric-diorama-poster/`。GitHub 自动生成的 Source code 包包含整个集合，请只安装所需效果目录。
+
+主要文件：
 
 ```text
 photo-to-isometric-diorama-poster/
 ├── SKILL.md
-├── references/prompt-template.md
-├── references/version-history.md
-└── agents/openai.yaml
+├── README.md
+├── agents/openai.yaml
+├── references/
+│   ├── prompt-template.md
+│   └── version-history.md
+└── assets/examples/
 ```
 
 ## 使用
 
-附上照片并请求：
+附上可访问的照片并请求：
 
 ```text
 使用 $photo-to-isometric-diorama-poster 处理这张照片。
 ```
 
-也可以指定“不要文字”“改用中文文案”或自定义标题。
+可补充“不要文字”“改用中文文案”、指定标题，或明确要求保留原片像素。无字版本会移除文案并改用居中布局；其他语言、指定文案或材质风格按用户要求处理。
 
-## 工具依赖与保真说明
+## 工具与保真
 
-本仓库提供技能指令和提示模板，不包含图像模型或可执行生成器。实际生成需要支持参考图片的图像生成或编辑工具，优先使用 Codex 可用的内置工具。
+本技能提供指令及提示模板，不自带图像模型或可执行生成器。生成需要支持参考图片的图像生成或编辑工具，优先使用可用的内置工具；内置工具可用时不要求用户提供 API 密钥。
 
-生成式处理可能改变上半部照片细节；若要求原片像素保真，需要单独生成下半部，再通过可用的图像合成工具拼接原照。未见的表面、内部结构及水体深度属于合理艺术重构，并非测量或事实复原。
+单次生成式处理可能改变上半部照片细节，不能保证原片逐像素保真。严格保真需要单独生成下半部，再使用当前图像工作流允许的合成工具放入未经修改的原片裁切及必要的边界扩展；缺少该工具时需说明限制。
 
-CLI/API 备用方式仅在用户明确选择时使用，可能需要本地配置 API 密钥、依赖和网络，并产生 API 费用。不要将密钥提交到仓库。
+CLI/API 备用方式仅在用户明确选择后使用，需要本地配置密钥、依赖和网络，并可能产生 API 费用。不要在聊天中提供密钥或将其提交到仓库。
 
-## 独立发布
+交付前应查看成品并测量实际尺寸与分割位置，检查主体对应、材质、前景深度、阴影、文字及留白；没有查看或测量的结果不能宣称已核验。
 
-本效果独立维护版本。标签使用 `isometric-diorama-v<版本>`；本次为 `isometric-diorama-v1.8`，Release 标题为 `Isometric Diorama Poster v1.8`。发布时附上单效果安装 ZIP，具体步骤见 [发布指南](../../RELEASING.md)。
+## 历史视觉参考
 
-## v1.8：通用重建原则与前景水体深度
+以下为较早版本的场景示例，供比较构图与材质表现，不代表均满足 v1.8 的全部要求。点击图片可查看大图。
 
-- 统一根据可见主体、空间关系、材料属性和连接关系重建，不为不同场景维护专用处理流程。
-- 通过体积、比例适当的厚度、可读侧面和自然阴影表现三维感，不再强制所有照片生成厚地形切片。
-- 前景出现水体时，基座或外露侧面必须呈现可感知的水柱深度；不能只在不透明土石板上绘制水面。保持原图水色和光学特性，并与合理的水下基底及岸坡连续衔接。
-- 不强制透明蓝色树脂或独立纯水块；不新增无依据的围边和装饰支撑，原图已有结构应保留。
-- 保留真正的单材质、单色外观，文案情绪随可见内容变化；正文、提示词模板和验收标准同步。
-- 保留 3:4、上下等分、默认英文左文右景、30°–45°俯视、四边留白和接触阴影。首轮确定完整模型及阴影占位，必要时整体等比缩小。
-- 历史决策已移入 references/version-history.md，仅供维护查阅，不参与日常生成。
+| 港湾 · Harbor Stillness | 双湖 · Alpine Stillness | 河谷 · Alpine Waters |
+| --- | --- | --- |
+| [![港湾木船微缩海报](assets/examples/harbor-stillness.png)](assets/examples/harbor-stillness.png) | [![雪山双湖微缩海报](assets/examples/alpine-stillness.png)](assets/examples/alpine-stillness.png) | [![雪峰河谷微缩海报](assets/examples/alpine-waters.jpg)](assets/examples/alpine-waters.jpg) |
 
-旧示例作为不同场景的视觉参考保留，不代表均通过 v1.8 的全部要求。每次成品仍需检查实际尺寸、分割位置、文字、材料及留白；严格原片保真需使用可用合成工具。
+## 版本与维护
+
+v1.8 将重建与验收统一为基于主体、空间、材质和连接关系的流程，同时明确前景水体必须具有可读深度；保留现有版式、宽松留白和自然接触阴影。技能正文、提示模板和验收要求保持一致。
+
+[提示词模板](references/prompt-template.md)用于准备生成请求；[版本历史](references/version-history.md)仅用于查阅历史决策，不参与日常生成。
+
+本效果独立维护版本，标签为 `isometric-diorama-v<版本>`。当前 [v1.8 Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/isometric-diorama-v1.8) 附带单效果安装包。维护者发布流程见 [RELEASING.md](../../RELEASING.md)。
