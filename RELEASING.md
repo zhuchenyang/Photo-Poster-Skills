@@ -15,7 +15,7 @@
    版本参数必须与该技能的 `metadata.version` 一致。ZIP 位于 `dist/`，内部以技能名为唯一顶层目录，只包含所选效果。打包不会自动发布。
 
 4. 在 GitHub 新建 Release，选择包含该效果更新的提交。当前等距微缩效果使用标签 `isometric-diorama-v1.4.0` 和标题 `Isometric Diorama Poster v1.4.0`。新效果使用自己的稳定前缀，避免不同效果标签冲突。
-5. 说明仅针对本效果的变化、安装方法及依赖；上传生成的安装 ZIP。正式版不勾选 Pre-release；集合不维护统一 Latest 版本，后续发布取消“Set as the latest release”，以效果标签区分下载。
+5. 说明仅针对本效果的变化、安装方法及依赖；上传生成的安装 ZIP。正式版不勾选 Pre-release；无论发布的是哪种海报效果，最新发布的正式 Release 都必须选择“Set as the latest release”（或 Release label: Latest）。Latest 按发布时间更新，不跨效果比较版本号；各效果仍通过自己的标签与独立安装包区分。
 6. 核验标签提交、安装 ZIP 内容、下载链接和 README 引用。
 
 ## 历史版本

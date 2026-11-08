@@ -10,7 +10,7 @@
 
 [![等距微缩海报参考图：河岸与红白灯塔](posters/photo-to-isometric-diorama-poster/assets/examples/riverside-study.png)](posters/photo-to-isometric-diorama-poster/README.md)
 
-**版本：v1.4** · [详细说明与更多示例](posters/photo-to-isometric-diorama-poster/README.md) · [历史 v1.3 Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/v1.3)
+**版本：v1.4** · [详细说明与更多示例](posters/photo-to-isometric-diorama-poster/README.md) · [v1.4 Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/isometric-diorama-v1.4)
 
 ## 目录结构
 
@@ -40,3 +40,5 @@ posters/
 本集合不设统一版本。各效果分别维护版本，后续标签采用效果前缀，例如 `isometric-diorama-v1.4.0`，并附上只包含对应效果的安装 ZIP。GitHub 自动生成的 Source code 包包含整个仓库，不等同于单效果安装包。
 
 现有 `v1.3` 标签与 Release 保持不变，仍对应重组前的历史快照。发布步骤见 [RELEASING.md](RELEASING.md)。
+
+Latest 标记始终指向最新发布的正式 Release，不区分海报效果，也不跨效果比较版本号；每种效果仍独立维护版本与安装包。
