@@ -2,7 +2,7 @@
 
 将照片制作成 **3:4 上下分栏海报**：上方呈现摄影画面，下方以等距微缩形式重建同一主体，默认配有左侧英文编辑文案。
 
-当前技能版本：**v1.8** · [Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/isometric-diorama-v1.8) · [下载独立安装包](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/download/isometric-diorama-v1.8/photo-to-isometric-diorama-poster-v1.8.zip) · [技能正文](SKILL.md)
+当前技能版本：**v1.9.0** · [Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/isometric-diorama-v1.9.0) · [下载独立安装包](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/download/isometric-diorama-v1.9.0/photo-to-isometric-diorama-poster-v1.9.0.zip) · [技能正文](SKILL.md)
 
 ## 最新效果示例
 
@@ -63,7 +63,7 @@
 
 本效果是 [Photo Poster Skills 集合](../../README.md) 中的独立技能。
 
-1. 下载 [v1.8 独立安装 ZIP](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/download/isometric-diorama-v1.8/photo-to-isometric-diorama-poster-v1.8.zip)。
+1. 下载 [v1.9.0 独立安装 ZIP](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/download/isometric-diorama-v1.9.0/photo-to-isometric-diorama-poster-v1.9.0.zip)。
 2. 解压，将其中的 `photo-to-isometric-diorama-poster` 文件夹放入 Codex 用户技能目录，通常为 `~/.codex/skills/`；设置了 `CODEX_HOME` 时使用其 `skills` 子目录。
 3. 更新已有同名技能前先备份旧版本。
 
@@ -108,12 +108,12 @@ CLI/API 备用方式仅在用户明确选择后使用，需要本地配置密钥
 
 | 港湾 · Lagoon Mooring | 双湖 · Where Stone Meets Sky | 河谷 · Alpine Waters |
 | --- | --- | --- |
-| [![Lagoon Mooring：清澈潟湖、木船与栈桥微缩海报](assets/examples/lagoon-mooring.png)](assets/examples/lagoon-mooring.png) | [![Where Stone Meets Sky：雪山双湖与公路微缩海报](assets/examples/where-stone-meets-sky.png)](assets/examples/where-stone-meets-sky.png) | [![雪峰河谷微缩海报](assets/examples/alpine-waters.jpg)](assets/examples/alpine-waters.jpg) |
+| [![Lagoon Mooring：清澈潟湖、木船与栈桥微缩海报](assets/examples/lagoon-mooring.png)](assets/examples/lagoon-mooring.png) | [![Where Stone Meets Sky：雪山双湖与公路微缩海报](assets/examples/where-stone-meets-sky.png)](assets/examples/where-stone-meets-sky.png) | [![雪峰河谷微缩海报：新版山谷水道与统一文字排版](assets/examples/alpine-waters-v1.9.0.png)](assets/examples/alpine-waters-v1.9.0.png) |
 
 ## 版本与维护
 
-v1.8 将重建与验收统一为基于主体、空间、材质和连接关系的流程，同时明确前景水体必须具有可读深度；保留现有版式、宽松留白和自然接触阴影。技能正文、提示模板和验收要求保持一致。
+v1.9.0 在 v1.8 的基础上补充了左侧三段文字的固定排版规范：统一左对齐轴、整体垂直居中、字体类别、字号比例、行高和段间距；同时更新河谷示例图。前景水体深度、宽松留白和自然接触阴影要求保持不变。
 
 [提示词模板](references/prompt-template.md)用于准备生成请求；[版本历史](references/version-history.md)仅用于查阅历史决策，不参与日常生成。
 
-本效果独立维护版本，标签为 `isometric-diorama-v<版本>`。当前 [v1.8 Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/isometric-diorama-v1.8) 附带单效果安装包。维护者发布流程见 [RELEASING.md](../../RELEASING.md)。
+本效果独立维护版本，标签为 `isometric-diorama-v<版本>`。当前 [v1.9.0 Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/isometric-diorama-v1.9.0) 附带单效果安装包。维护者发布流程见 [RELEASING.md](../../RELEASING.md)。

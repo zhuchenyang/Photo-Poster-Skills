@@ -44,11 +44,26 @@ text column around 30–35% of the lower panel width first, then place the compl
 miniature on the right. Uniformly scale it to keep the full silhouette and shadow
 clear of text, divider and all outer edges. Optically balance text and model
 together. Preserve generous four-sided breathing room; do not fill the right area.
+Treat all copy as one vertically centered three-tier text block. Use one shared
+left alignment axis about 3.5–4.5% of full canvas width from the left edge. Place
+the block's optical center about 48–50% down the lower panel, with the complete
+block usually occupying about 38–43% of lower-panel height. Do not vertically
+center only the headline or distribute the three tiers independently.
 English copy, derived from observed content, concise and restrained, with emotional
 tone and energy supported by the photograph rather than a fixed scene-to-mood pairing:
-Overline (small uppercase, tracked sans-serif): "[2–3 subject-specific words]"
-Headline (regular serif, 2–3 balanced lines): "[3–6 words, explicit line breaks]"
-Supporting copy (smaller type, two lines): "[about 8–14 words total]"
+Overline (clean geometric/neo-grotesque sans comparable to Avenir Next, Helvetica
+Neue or Inter; semibold uppercase; 0.20–0.28 em tracking; about 2.0–2.3% of canvas
+width, or 24–28 px at 1200 × 1600): "[2–3 subject-specific words]"
+Headline (elegant regular-weight editorial serif comparable to Cormorant Garamond,
+Canela or Libre Baskerville; not bold; about 5.0–5.6% of canvas width, or 60–67 px
+at 1200 × 1600; 0.95–1.05 em line height; 2–3 balanced lines):
+"[3–6 words, explicit line breaks]"
+Supporting copy (same sans family as overline, regular sentence case; about
+2.2–2.6% of canvas width, or 26–31 px at 1200 × 1600; two lines at 1.18–1.28 em
+line height): "[about 8–14 words total]"
+Use about 0.65–0.80 headline em of visible vertical space between overline and
+headline, and again between headline and supporting copy. Scale all three tiers
+and both gaps together; preserve their hierarchy and the block's vertical center.
 Render the supplied final copy verbatim in dark charcoal with clear contrast.
 Use one visible subject or scene anchor, simple natural English and at most one
 gentle metaphor. No stock slogans, invented facts or inferred private emotions.
@@ -96,7 +111,7 @@ Use the same reference-based checks for every photograph:
 - Check material identities, colors, textures, optical properties, boundaries and connections against the image. Preserve real material differences and genuinely uniform appearances. Inferred hidden geometry must be minimal and structurally plausible.
 - Verify readable volume, foreground material depth and source-appropriate thickness at thumbnail size. Foreground water must have a perceptible below-surface water column in the base or exposed side, rather than only a surface painted on a solid slab; retain the reference's optical character and connected substrate. Reject flat photo cutouts and unsupported terrain blocks or decorative supports. Retain borders, frames and supporting structures genuinely present in the source; reject invented additions.
 - Check the entire silhouette, any supporting structure and visible shadow against all four margins. For a text-free 1200 × 800 lower panel, a useful starting envelope is at most 840 × 600, scaled proportionally with clear space above the subject and below the shadow. Narrow or tall subjects may occupy less width.
-- With default text, verify the reserved left column, complete right-positioned model, spelling, readability and balanced spacing. Do not apply the centered text-free envelope to this layout. Confirm that the copy references visible content and its tone fits the photograph.
+- With default text, verify the reserved left column, shared left alignment axis, complete three-tier block centered optically at about 48%–50% of lower-panel height, serif/sans hierarchy, specified relative type sizes, within-tier line heights, 0.65–0.80 headline-em inter-tier gaps, complete right-positioned model, spelling, readability and balanced spacing. Do not apply the centered text-free envelope to this layout. Confirm that the copy references visible content and its tone fits the photograph.
 - Verify natural shadows at actual contact areas, consistent with geometry and light direction. Reject uniform glows, duplicated forms, hard floating gaps and shadows intruding into text or margins. Do not require a raised base.
 
 Review the complete poster at intended viewing size and thumbnail size. Correct concrete defects and disclose unresolved deviations; do not claim verification without viewing and measuring the output.
