@@ -1,5 +1,5 @@
 interface:
-  display_name: "照片转等距微缩景观海报 v1.5（原版）"
+  display_name: "照片转等距微缩景观海报 v1.8（原版）"
   short_description: "一次生成照片、文字与微缩景观的完整分栏海报"
   default_prompt: "使用 $photo-to-isometric-diorama-poster 将这张照片制作成一张 3:4 的照片与等距微缩景观分栏海报。"
 policy:
