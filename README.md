@@ -8,7 +8,7 @@
 
 将照片转化为 3:4 上下分区海报：上方摄影画面，下方为保留真实材质的等距微缩场景，默认采用左侧英文文案、右侧模型的编辑式布局。
 
-[![等距微缩海报参考图：河岸与红白灯塔](posters/photo-to-isometric-diorama-poster/assets/examples/riverside-study.png)](posters/photo-to-isometric-diorama-poster/README.md)
+[![等距微缩海报参考图：湖畔黑天鹅与水体截面（v1.4）](posters/photo-to-isometric-diorama-poster/assets/examples/lakeside-stillness.png)](posters/photo-to-isometric-diorama-poster/README.md)
 
 **版本：v1.4** · [详细说明与更多示例](posters/photo-to-isometric-diorama-poster/README.md) · [v1.4 Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/isometric-diorama-v1.4)
 
