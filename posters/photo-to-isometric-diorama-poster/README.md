@@ -106,9 +106,9 @@ CLI/API 备用方式仅在用户明确选择后使用，需要本地配置密钥
 
 以下为较早版本的场景示例，供比较构图与材质表现，不代表均满足 v1.8 的全部要求。点击图片可查看大图。
 
-| 港湾 · Harbor Stillness | 双湖 · Alpine Stillness | 河谷 · Alpine Waters |
+| 港湾 · Lagoon Mooring | 双湖 · Where Stone Meets Sky | 河谷 · Alpine Waters |
 | --- | --- | --- |
-| [![港湾木船微缩海报](assets/examples/harbor-stillness.png)](assets/examples/harbor-stillness.png) | [![雪山双湖微缩海报](assets/examples/alpine-stillness.png)](assets/examples/alpine-stillness.png) | [![雪峰河谷微缩海报](assets/examples/alpine-waters.jpg)](assets/examples/alpine-waters.jpg) |
+| [![Lagoon Mooring：清澈潟湖、木船与栈桥微缩海报](assets/examples/lagoon-mooring.png)](assets/examples/lagoon-mooring.png) | [![Where Stone Meets Sky：雪山双湖与公路微缩海报](assets/examples/where-stone-meets-sky.png)](assets/examples/where-stone-meets-sky.png) | [![雪峰河谷微缩海报](assets/examples/alpine-waters.jpg)](assets/examples/alpine-waters.jpg) |
 
 ## 版本与维护
 
