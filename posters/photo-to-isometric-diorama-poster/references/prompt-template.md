@@ -9,7 +9,8 @@ Top 50%: the source photographic scene, naturally cropped without distortion,
 preserving [principal subject and scene anchors].
 Bottom 50%: the same recognizable scene reconstructed as a realistic miniature
 isometric diorama, viewed downward at 30–45 degrees. Preserve [spatial relationships].
-Show a plausible cutaway of terrain or construction, with visible side faces.
+Show plausible terrain or construction cutaways beneath land, with visible side faces.
+Render water-covered volumes as water cross-sections, following the material rules below.
 Keep the full model silhouette and its contact shadow inside the bottom half.
 Use a spacious left-text/right-model editorial layout. Reserve a left-aligned
 text column around 30–35% of the lower panel width first, then place the complete
@@ -29,6 +30,15 @@ is preferable to a model that crowds the divider or edges.
 Materials: [surface -> corresponding material and plausible cutaway mapping].
 Soil stays soil, gravel stays gravel, rock stays rock, grass stays vegetation;
 wood, masonry, brick, and concrete keep their authentic physical identities.
+For water-covered areas, show the model's depth as a volume of water,
+with exposed side faces rendered as water cross-sections.
+Match the reference water's color, clarity and turbidity; use natural depth shading,
+light attenuation and appropriate refraction, not generic clear blue plastic/resin.
+Do not add visible soil or rock backing, riverbed, lakebed or seabed beneath water,
+or an enclosing stone rim, unless clearly visible in the reference or explicitly requested.
+For mixed land-and-water scenes, show terrain cutaways only beneath land
+and water cross-sections beneath water, joined naturally at the shoreline.
+Preserve actual shoreline rocks; do not add an artificial rim or earthen support.
 Preserve material boundaries and natural transitions. Simplify fine texture for
 miniature scale only. Never unify the scene into plaster, ivory resin, or beige.
 No unrelated decorative pedestal. Material authenticity takes priority over
@@ -50,3 +60,5 @@ Review mixed-material scenes especially carefully: a gravel path through soil an
 Review the full poster at thumbnail size for optical balance. For a text-free 1200 × 800 lower panel, a useful starting envelope is at most 840 × 600, scaled proportionally and positioned with clear space above the subject and below the shadow. Narrow or tall scenes may occupy less width. Check actual four-sided clearance rather than relying on a total background-area percentage.
 
 With default text, verify the reserved left column, right-positioned complete model, readable spelling, and balanced text/model spacing; do not apply the centered text-free envelope to this layout.
+
+For water scenes, inspect the exposed water side faces: water must remain water down through its displayed volume, with no invented riverbed/lakebed/seabed cutaway or artificial enclosing stone rim. For mixed scenes, verify separate land and water sections and a natural shoreline join. Water depth is artistic, not measured.

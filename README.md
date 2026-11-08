@@ -10,7 +10,7 @@
 
 [![等距微缩海报参考图：河岸与红白灯塔](posters/photo-to-isometric-diorama-poster/assets/examples/riverside-study.png)](posters/photo-to-isometric-diorama-poster/README.md)
 
-**版本：v1.3** · [详细说明与更多示例](posters/photo-to-isometric-diorama-poster/README.md) · [历史 v1.3 Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/v1.3)
+**版本：v1.4** · [详细说明与更多示例](posters/photo-to-isometric-diorama-poster/README.md) · [历史 v1.3 Release](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/tag/v1.3)
 
 ## 目录结构
 
