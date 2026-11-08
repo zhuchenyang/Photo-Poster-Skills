@@ -1,6 +1,6 @@
 interface:
-  display_name: "Photo to Isometric Diorama Poster v1.4"
-  short_description: "Photo posters with faithful dioramas and English editorial copy"
-  default_prompt: "Use $photo-to-isometric-diorama-poster to turn my photograph into a 3:4 split poster with English editorial copy on the left and a material-faithful miniature diorama on the right of the lower panel."
+  display_name: "照片转等距微缩景观海报 v1.5（原版）"
+  short_description: "一次生成照片、文字与微缩景观的完整分栏海报"
+  default_prompt: "使用 $photo-to-isometric-diorama-poster 将这张照片制作成一张 3:4 的照片与等距微缩景观分栏海报。"
 policy:
   allow_implicit_invocation: true

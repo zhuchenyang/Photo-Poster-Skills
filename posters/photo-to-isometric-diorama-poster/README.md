@@ -2,15 +2,15 @@
 
 将照片转化为上方摄影画面、下方等距微缩场景的精致海报，默认配有英文编辑式文案。
 
-当前版本：**v1.4**。
+当前版本：**v1.5**。
 
 ## 效果示例
 
 以下三张展示同一套版式在不同场景中的表现：上半部摄影画面，下半部英文文案与微缩模型。点击图片可查看原图。
 
-| 海崖 · Coastal Stillness | 灯塔 · Riverside Study | 湖畔 · Lakeside Stillness |
+| 港湾 · Harbor Stillness | 双湖 · Alpine Stillness | 河谷 · Alpine Waters |
 | --- | --- | --- |
-| [![白色海崖与海岸微缩海报](assets/examples/coastal-stillness.png)](assets/examples/coastal-stillness.png) | [![红白灯塔与河岸微缩海报](assets/examples/riverside-study.png)](assets/examples/riverside-study.png) | [![黑天鹅与湖畔微缩海报](assets/examples/lakeside-stillness.png)](assets/examples/lakeside-stillness.png) |
+| [![港湾木船与水体厚基座海报](assets/examples/harbor-stillness.png)](assets/examples/harbor-stillness.png) | [![雪山双湖与局部水体剖切海报](assets/examples/alpine-stillness.png)](assets/examples/alpine-stillness.png) | [![雪峰河谷与水体截面海报](assets/examples/alpine-waters.jpg)](assets/examples/alpine-waters.jpg) |
 
 ## 视觉规则
 
@@ -25,7 +25,7 @@
 
 本效果是 [海报技能集合](../../README.md) 中的一个独立技能。
 
-[下载 v1.4 独立安装包](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/download/isometric-diorama-v1.4/photo-to-isometric-diorama-poster-v1.4.zip)。
+[下载 v1.5 独立安装包](https://github.com/zhuchenyang/Photo-Poster-Skills/releases/download/isometric-diorama-v1.5/photo-to-isometric-diorama-poster-v1.5.zip)。
 
 优先下载对应 Release 附带的 `photo-to-isometric-diorama-poster-v<版本>.zip`，解压后将 `photo-to-isometric-diorama-poster` 文件夹放入 Codex 用户技能目录（通常为 `~/.codex/skills/`；设置 `CODEX_HOME` 时使用其 `skills` 子目录）。
 
@@ -60,10 +60,12 @@ CLI/API 备用方式仅在用户明确选择时使用，可能需要本地配置
 
 ## 独立发布
 
-本效果独立维护版本。后续标签使用 `isometric-diorama-v<版本>`，例如 `isometric-diorama-v1.4.0`；Release 标题为 `Isometric Diorama Poster v1.4.0`。发布时附上单效果安装 ZIP，具体步骤见 [发布指南](../../RELEASING.md)。当前技能版本为 v1.4。
+本效果独立维护版本。标签使用 `isometric-diorama-v<版本>`；本次为 `isometric-diorama-v1.5`，Release 标题为 `Isometric Diorama Poster v1.5`。发布时附上单效果安装 ZIP，具体步骤见 [发布指南](../../RELEASING.md)。
 
-## v1.4：水体截面规则
+## v1.5：厚剖切基座、自然水陆延续与模型占位
 
-水面下方的模型体积与外露侧面默认表现为水体，不再默认展示河床、湖床或海床土石剖面。保持原照水色、透明度与浑浊程度，不添加土石托底或围边。混合场景按区域区分：陆地展示土石或结构剖面，水域展示水体截面，并在岸线自然衔接。原照清楚可见水底或用户明确要求时，可展示相应水底细节。
+模型必须有明显厚度的剖切基座，侧面和底缘在缩略图下也能辨认。基座自然延续地表材质，允许合理的土石及水下结构；水体可局部显露深度，不必强制为独立纯水块。保持照片中的水色、清澈程度和浑浊程度，禁止岩石包边及无关装饰底座。
 
-湖畔示例已更新为 v1.4 最终成品，展示水体截面与岸边土壤剖面的分区处理。海崖和灯塔示例保留 v1.3 成品，用于展示整体版式。
+模型大小提升为首轮构图优先项：先预留左侧文字，再确定右侧完整模型和阴影的占位。初始上限约为下半区宽度的 48%–52%、高度的 58%–64%，根据更严格的方向等比例缩小，不必填满。四边留白优先于细节密度。
+
+示例已替换为用户选定的港湾、双湖与河谷三张参考图，用于展示自然材质、厚基座及不同水体表现；它们是视觉参考，不代表每张都达到像素级布局核验。严格等分和原片保真仍需最终检查，必要时合成。

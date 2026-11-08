@@ -5,12 +5,24 @@ Replace the bracketed scene observations with facts from the inspected image. In
 ```text
 Create a refined editorial poster from the supplied reference photograph.
 Canvas: portrait 3:4, with a horizontal division at exactly half the height.
+FIRST-PASS COMPOSITION PRIORITY: reserve the left text column, then establish
+the complete right miniature AND visible shadow envelope before rendering details.
+Use at most about 48–52% of the lower panel width and 58–64% of its height;
+these are upper target ranges, not space to fill. Uniformly scale to the tighter
+axis; choose smaller when uncertain. Keep generous text, divider and edge clearance.
+Do not expand the model or base to fill the right area. Spacious model scale
+takes priority over detail density. Achieve this in the initial generation.
 Top 50%: the source photographic scene, naturally cropped without distortion,
 preserving [principal subject and scene anchors].
 Bottom 50%: the same recognizable scene reconstructed as a realistic miniature
 isometric diorama, viewed downward at 30–45 degrees. Preserve [spatial relationships].
 Show plausible terrain or construction cutaways beneath land, with visible side faces.
-Render water-covered volumes as water cross-sections, following the material rules below.
+MANDATORY: give the miniature a clearly thick cutaway base, with readable vertical
+or sloped side faces and a visible bottom edge. It must read as a volumetric terrain
+section, not a thin sheet, flat photo cutout or feathered vignette. Keep thickness
+proportionate and visible at thumbnail size, without making an oversized plinth.
+Fit the complete base thickness and shadow within the compact model envelope.
+Integrate water and terrain naturally, following the material rules below.
 Keep the full model silhouette and its contact shadow inside the bottom half.
 Use a spacious left-text/right-model editorial layout. Reserve a left-aligned
 text column around 30–35% of the lower panel width first, then place the complete
@@ -30,15 +42,18 @@ is preferable to a model that crowds the divider or edges.
 Materials: [surface -> corresponding material and plausible cutaway mapping].
 Soil stays soil, gravel stays gravel, rock stays rock, grass stays vegetation;
 wood, masonry, brick, and concrete keep their authentic physical identities.
-For water-covered areas, show the model's depth as a volume of water,
-with exposed side faces rendered as water cross-sections.
+Treat the base as a natural continuation of the surface and terrain.
+Water may expose a cross-section or sit naturally within surrounding terrain;
+plausible soil, rock and underwater structures may continue through the model.
+Not every visible volume beneath water must be pure water.
 Match the reference water's color, clarity and turbidity; use natural depth shading,
 light attenuation and appropriate refraction, not generic clear blue plastic/resin.
-Do not add visible soil or rock backing, riverbed, lakebed or seabed beneath water,
-or an enclosing stone rim, unless clearly visible in the reference or explicitly requested.
-For mixed land-and-water scenes, show terrain cutaways only beneath land
-and water cross-sections beneath water, joined naturally at the shoreline.
-Preserve actual shoreline rocks; do not add an artificial rim or earthen support.
+Preserve natural shore slopes and land/water transitions. Do not sever terrain
+or isolate water into a separate block merely to emphasize a cross-section.
+Do not add rock or stone edging around water, including an enclosing rim along
+an exposed water face. Natural shoreline terrain must not become a rock border.
+Avoid unrelated decorative supports, regular frames, extra pedestals or trays.
+Unseen subsurface structure is plausible artistic reconstruction, not measured geology.
 Preserve material boundaries and natural transitions. Simplify fine texture for
 miniature scale only. Never unify the scene into plaster, ivory resin, or beige.
 No unrelated decorative pedestal. Material authenticity takes priority over
@@ -56,9 +71,10 @@ For a separate lower-scene generation, remove the top-photo requirement and requ
 For a 1200 × 1600 output, the split is y=800 and each panel is 1200 × 800. Use another resolution if the tool requires it, while retaining the final ratio. Verify actual output dimensions rather than assuming the prompt enforced them.
 
 Review mixed-material scenes especially carefully: a gravel path through soil and grass must retain three distinct surface categories; a stone platform must not become a plaster slab. The base should explain the scene's ground or construction rather than serve as an unrelated display stand.
+Verify that the cutaway base has appreciable thickness, readable side faces and a bottom edge even at thumbnail size. Reject a thin sheet, flat cutout or feathered vignette. Its materials must continue the scene naturally, and its full thickness must fit within the model envelope.
 
 Review the full poster at thumbnail size for optical balance. For a text-free 1200 × 800 lower panel, a useful starting envelope is at most 840 × 600, scaled proportionally and positioned with clear space above the subject and below the shadow. Narrow or tall scenes may occupy less width. Check actual four-sided clearance rather than relying on a total background-area percentage.
 
 With default text, verify the reserved left column, right-positioned complete model, readable spelling, and balanced text/model spacing; do not apply the centered text-free envelope to this layout.
 
-For water scenes, inspect the exposed water side faces: water must remain water down through its displayed volume, with no invented riverbed/lakebed/seabed cutaway or artificial enclosing stone rim. For mixed scenes, verify separate land and water sections and a natural shoreline join. Water depth is artistic, not measured.
+For water scenes, review natural terrain continuity, authentic water appearance and coherent shoreline joins. Plausible soil, rock and underwater structure are allowed; do not force an isolated pure-water block. Reject rock edging around water and unrelated decorative supports. Unseen structure and water depth are artistic, not measured.
